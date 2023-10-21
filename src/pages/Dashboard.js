@@ -86,7 +86,7 @@ function Dashboard() {
               <CustomTabPanel value={value} index={0}>
                 <Grid container spacing={2}>
                   <Grid xs={6}>
-                    <Card sx={{ minWidth: 275 }}>
+                    <Card sx={{ minWidth: 275, minHeight: 120 }}>
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
@@ -104,7 +104,7 @@ function Dashboard() {
                             }}
                           >
                             Client Retention Rate
-                            <Typography>50%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
                           </Box>
                           <Box
                             sx={{
@@ -114,7 +114,7 @@ function Dashboard() {
                             }}
                           >
                             Client Satisfaction
-                            <Typography>55%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>55%</Box>
                           </Box>
                           <Box
                             sx={{
@@ -124,14 +124,14 @@ function Dashboard() {
                             }}
                           >
                             Revenue Generated
-                            <Typography>55%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
                           </Box>
                         </Box>
                       </CardContent>
                     </Card>
                   </Grid>
                   <Grid xs={3}>
-                    <Card sx={{ minWidth: 200 }}>
+                    <Card sx={{ minWidth: 200, minHeight: 120 }}>
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
@@ -145,38 +145,38 @@ function Dashboard() {
                             sx={{
                               fontSize: 12,
                               borderLeft: "2px solid black",
-                              px: 1,
+                              px: 2,
                             }}
                           >
                             Total
-                            <Typography>50%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
                           </Box>
                           <Box
                             sx={{
                               fontSize: 12,
                               borderLeft: "2px solid black",
-                              px: 1,
+                              px: 2,
                             }}
                           >
                             Active
-                            <Typography>55%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
                           </Box>
                           <Box
                             sx={{
                               fontSize: 12,
                               borderLeft: "2px solid black",
-                              px: 1,
+                              px: 2,
                             }}
                           >
                             New
-                            <Typography>55%</Typography>
+                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
                           </Box>
                         </Box>
                       </CardContent>
                     </Card>
                   </Grid>
                   <Grid xs={3}>
-                    <Card sx={{ minWidth: 200 }}>
+                    <Card sx={{ minWidth: 200, minHeight: 120 }}>
                       <CardContent>
                         <Typography
                           sx={{ fontSize: 14 }}
@@ -185,36 +185,22 @@ function Dashboard() {
                         >
                           Active User Base
                         </Typography>
-                        <Box sx={{ display: "flex", flexDirection: "row" }}>
+                        <Box sx={{ display: "flex" }}>
                           <Box
                             sx={{
                               fontSize: 12,
-                              borderLeft: "2px solid black",
                               px: 1,
                             }}
                           >
-                            Client Retention Rate
-                            <Typography>50%</Typography>
+                            App User
                           </Box>
                           <Box
                             sx={{
                               fontSize: 12,
-                              borderLeft: "2px solid black",
                               px: 1,
                             }}
                           >
-                            Client Satisfaction
-                            <Typography>55%</Typography>
-                          </Box>
-                          <Box
-                            sx={{
-                              fontSize: 12,
-                              borderLeft: "2px solid black",
-                              px: 1,
-                            }}
-                          >
-                            Revenue Generated
-                            <Typography>55%</Typography>
+                            Web User
                           </Box>
                         </Box>
                       </CardContent>
