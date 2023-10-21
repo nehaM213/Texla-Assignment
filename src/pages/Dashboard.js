@@ -68,8 +68,8 @@ function Dashboard() {
           sx={{ flexGrow: 1, bgcolor: "background.default" }}
         >
           <Navbar />
-          <Box sx={{ flexGrow: 1, bgcolor: "background.default", p: 3 }}>
-            <Typography variant="h6" component="h6">
+          <Box sx={{ flexGrow: 1, bgcolor: "background.default", p: 3,position:"relative",top:40 }}>
+            <Typography variant="h6" component="h6" sx={{position:"static"}}>
               Client Management
             </Typography>
             <Box sx={{ width: "100%" }}>
@@ -104,7 +104,9 @@ function Dashboard() {
                             }}
                           >
                             Client Retention Rate
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              50%
+                            </Box>
                           </Box>
                           <Box
                             sx={{
@@ -114,7 +116,9 @@ function Dashboard() {
                             }}
                           >
                             Client Satisfaction
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>55%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              55%
+                            </Box>
                           </Box>
                           <Box
                             sx={{
@@ -124,7 +128,9 @@ function Dashboard() {
                             }}
                           >
                             Revenue Generated
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              50%
+                            </Box>
                           </Box>
                         </Box>
                       </CardContent>
@@ -149,7 +155,9 @@ function Dashboard() {
                             }}
                           >
                             Total
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              50%
+                            </Box>
                           </Box>
                           <Box
                             sx={{
@@ -159,7 +167,9 @@ function Dashboard() {
                             }}
                           >
                             Active
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              50%
+                            </Box>
                           </Box>
                           <Box
                             sx={{
@@ -169,7 +179,9 @@ function Dashboard() {
                             }}
                           >
                             New
-                            <Box sx={{ fontSize: 16, fontWeight:"bold" }}>50%</Box>
+                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                              50%
+                            </Box>
                           </Box>
                         </Box>
                       </CardContent>
@@ -214,7 +226,7 @@ function Dashboard() {
                           color="text.secondary"
                           gutterBottom
                         >
-                          Word of the Day
+                          Onboarded Companies
                         </Typography>
                         <Typography variant="h5" component="div">
                           be{bull}nev{bull}o{bull}lent
@@ -241,7 +253,7 @@ function Dashboard() {
                           color="text.secondary"
                           gutterBottom
                         >
-                          Word of the Day
+                          Regional Metrics
                         </Typography>
                         <Typography variant="h5" component="div">
                           be{bull}nev{bull}o{bull}lent
