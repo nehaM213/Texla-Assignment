@@ -191,10 +191,10 @@ export default function Navbar() {
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
               size="large"
-              aria-label="show 4 new mails"
+              aria-label="Country"
               color="inherit"
             >
-              <Badge badgeContent={4} color="error">
+              <Badge color="error">
                 <MailIcon />
               </Badge>
             </IconButton>

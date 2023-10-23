@@ -3,7 +3,7 @@ import { PieChart, pieArcLabelClasses } from "@mui/x-charts/PieChart";
 
 const size = {
   width: 275,
-  height: 200,
+  height: 250,
 };
 
 const data = [
@@ -27,7 +27,7 @@ export default function Chart() {
           cornerRadius: 0,
           startAngle: -180,
           endAngle: 180,
-          cx: 100,
+          cx: 70,
           cy: 95,
         },
       ]}
@@ -35,7 +35,6 @@ export default function Chart() {
         [`& .${pieArcLabelClasses.root}`]: {
           fill: "white",
           fontWeight: "bold",
-          top: 0,
         },
       }}
       {...size}

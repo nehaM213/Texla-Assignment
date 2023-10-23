@@ -9,8 +9,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import MailIcon from "@mui/icons-material/Mail";
 import { useNavigate } from "react-router-dom";
+import DashboardIcon from "@mui/icons-material/Dashboard";
 
 const drawerWidth = 240;
 
@@ -51,7 +51,7 @@ export default function Sidenav() {
             }}
           >
             <ListItemButton>
-              <ListItemIcon>{<MailIcon />}</ListItemIcon>
+              <ListItemIcon>{<DashboardIcon />}</ListItemIcon>
               <ListItemText primary="Dashboard" />
             </ListItemButton>
           </ListItem>
@@ -62,7 +62,7 @@ export default function Sidenav() {
             }}
           >
             <ListItemButton>
-              <ListItemIcon>{<MailIcon />}</ListItemIcon>
+              <ListItemIcon>{<DashboardIcon />}</ListItemIcon>
               <ListItemText primary="Companies" />
             </ListItemButton>
           </ListItem>
@@ -73,7 +73,7 @@ export default function Sidenav() {
             }}
           >
             <ListItemButton>
-              <ListItemIcon>{<MailIcon />}</ListItemIcon>
+              <ListItemIcon>{<DashboardIcon />}</ListItemIcon>
               <ListItemText primary="Support & Tickets" />
             </ListItemButton>
           </ListItem>
@@ -84,7 +84,7 @@ export default function Sidenav() {
             }}
           >
             <ListItemButton>
-              <ListItemIcon>{<MailIcon />}</ListItemIcon>
+              <ListItemIcon>{<DashboardIcon />}</ListItemIcon>
               <ListItemText primary="User Admins" />
             </ListItemButton>
           </ListItem>

@@ -104,7 +104,13 @@ function Dashboard() {
                             }}
                           >
                             Client Retention Rate
-                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                            <Box
+                              sx={{
+                                fontSize: 16,
+                                fontWeight: "bold",
+                                color: "#091A7A",
+                              }}
+                            >
                               50%
                             </Box>
                           </Box>
@@ -116,7 +122,13 @@ function Dashboard() {
                             }}
                           >
                             Client Satisfaction
-                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                            <Box
+                              sx={{
+                                fontSize: 16,
+                                fontWeight: "bold",
+                                color: "#006C9C",
+                              }}
+                            >
                               55%
                             </Box>
                           </Box>
@@ -128,7 +140,13 @@ function Dashboard() {
                             }}
                           >
                             Revenue Generated
-                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                            <Box
+                              sx={{
+                                fontSize: 16,
+                                fontWeight: "bold",
+                                color: "#006124",
+                              }}
+                            >
                               50%
                             </Box>
                           </Box>
@@ -155,7 +173,13 @@ function Dashboard() {
                             }}
                           >
                             Total
-                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                            <Box
+                              sx={{
+                                fontSize: 16,
+                                fontWeight: "bold",
+                                color: "#091A7A",
+                              }}
+                            >
                               50%
                             </Box>
                           </Box>
@@ -164,10 +188,17 @@ function Dashboard() {
                               fontSize: 12,
                               borderLeft: "2px solid black",
                               px: 2,
+                              color: "#006124",
                             }}
                           >
                             Active
-                            <Box sx={{ fontSize: 16, fontWeight: "bold" }}>
+                            <Box
+                              sx={{
+                                fontSize: 16,
+                                fontWeight: "bold",
+                                color: "#006C9C",
+                              }}
+                            >
                               50%
                             </Box>
                           </Box>
@@ -204,7 +235,7 @@ function Dashboard() {
                               px: 1,
                             }}
                           >
-                            App User
+                            89% App User
                           </Box>
                           <Box
                             sx={{
@@ -212,7 +243,7 @@ function Dashboard() {
                               px: 1,
                             }}
                           >
-                            Web User
+                            11% Web User
                           </Box>
                         </Box>
                       </CardContent>
@@ -228,7 +259,7 @@ function Dashboard() {
                         >
                           Onboarded Companies
                         </Typography>
-                        <Table/>
+                        <Table />
                       </CardContent>
                     </Card>
                   </Grid>
